@@ -1,0 +1,297 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:url('/Imagenes_TP2/fondo-blog.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100v;
+    background-color: #c8a17b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+header{
+    width: 800px;
+    height: 100px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #895d31;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+
+}
+
+header img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.container-logo{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efe5db;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border: 2px solid #c8a17b;
+}
+
+header ul{
+    display: flex;
+    gap: 44px;
+    list-style: none;
+}
+
+header a{
+    color: #efe5db;
+}
+
+.blog{
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+
+aside{
+    width: 250px;
+    height: 630px;
+    background-color: #e5c3a0;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 8px;
+}
+
+.presentacion{
+    background-color: #be7e3e;
+    width: 100%;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.presentacion p{
+    font-family: inter;
+    font-size: 12px;
+}
+
+.presentacion h2{
+    font-family: tango;
+    font-size: 19px;
+}
+
+.perfil{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.descripcion-perfil{
+    margin-top: 5px;
+    text-align: start;
+    margin-left: 10px;
+}
+
+article p{
+    font-family: inter;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+article h2{
+    font-family: tango;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+.contenido{
+    width: 550px;
+    height: auto;
+    background-color: #efe5db;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+article{
+    margin-top: 25px;
+}
+
+article img{
+    width: 100%;
+    height: 300px;
+}
+
+.contactame{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:end;
+}
+
+.contactame ul{
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.contenido hr{
+    background-color: #895d31;
+    color: #895d31;
+    width: 100%;
+    border: 1px solid #be7e3e;
+    margin-top: 20px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.suscribite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 0px;
+}
+
+aside hr{
+    width: 100%;
+    border: 1px solid #be7e3e;
+    margin-top: 20px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.suscribite input{
+    width: 80%;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 8px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.suscribite button{
+    width: 100px;
+    height: 25px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border: 0;
+    background-color: #be7e3e;
+    color: #efe5db;
+    cursor: pointer;
+    font-family: tango;
+    transition: transform 0.5s ease;
+    -webkit-transition: transform 0.5s ease;
+    -moz-transition: transform 0.5s ease;
+    -ms-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+}
+
+.suscribite button:hover{
+    transform: scale(1.03) ;
+    -webkit-transform: scale(1.03) ;
+    -moz-transform: scale(1.03) ;
+    -ms-transform: scale(1.03) ;
+    -o-transform: scale(1.03) ;
+}
+
+.ig,.in,.gh{
+    width: 40px;
+    height: 40px;
+}
+
+.ig:hover,.gh:hover,.in:hover{
+    animation: agitar 0.5s ease;
+    -webkit-animation: agitar 0.5s ease;
+}
+
+@keyframes agitar{
+    0%   { transform:rotate(0deg); -webkit-transform:rotate(0deg); -moz-transform:rotate(0deg); -ms-transform:rotate(0deg); -o-transform:rotate(0deg); }
+    25%  { transform: rotate(30deg); -webkit-transform: rotate(30deg); -moz-transform: rotate(30deg); -ms-transform: rotate(30deg); -o-transform: rotate(30deg); }
+    75%  { transform: rotate(-30deg); -webkit-transform: rotate(-30deg); -moz-transform: rotate(-30deg); -ms-transform: rotate(-30deg); -o-transform: rotate(-30deg); }
+    100% { transform: rotate(0deg); -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -ms-transform: rotate(0deg); -o-transform: rotate(0deg); }
+
+}
+
+
+.presentacion{
+    color: #efe5db;
+}
+
+.posteos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 0px;
+}
+
+.posteos ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contactame h2 ,.posteos h2 ,.suscribite h2{
+    font-family: tango;
+}
+@font-face {
+    font-family:'tango';
+    src:url("/fonts/TangoSans.ttf");
+}
+
+@font-face {
+    font-family:'inter';
+    src:url("/fonts/TT\ Interphases\ Pro\ Trial\ Regular.ttf");
+}
